@@ -1,8 +1,11 @@
 This is a data generator for lubm dataset,here we get nt format output data file
 For example,we get 220000 triples if we set univ_num 2,Lubm.nt is the output file:
 ```
+cd classes
 # lubm0.2m
 java edu.lehigh.swat.bench.uba.Generator -univ 2 -index 0 -seed 0 -onto http://swat.cse.lehigh.edu/onto/univ-bench.owl
+# lubm100m
+java edu.lehigh.swat.bench.uba.Generator -univ 1000 -index 0 -seed 0 -onto http://swat.cse.lehigh.edu/onto/univ-bench.owl
 ```
 
 ####################################################
