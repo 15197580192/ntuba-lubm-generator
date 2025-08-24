@@ -1,6 +1,7 @@
 This is a data generator for lubm dataset,here we get nt format output data file
 For example,we get 220000 triples if we set univ_num 2,Lubm.nt is the output file:
 ```
+# windows system
 cd classes
 # lubm0.2m
 java edu.lehigh.swat.bench.uba.Generator -univ 2 -index 0 -seed 0 -onto http://swat.cse.lehigh.edu/onto/univ-bench.owl
@@ -43,3 +44,4 @@ Contact
 Yuanbo Guo	yug2@lehigh.edu
 
 For more information about the benchmark, visit its homepage http://www.lehigh.edu/~yug2/Research/SemanticWeb/LUBM/LUBM.htm.
+
